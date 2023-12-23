@@ -1,0 +1,64 @@
+:root{
+    --outline: rgb(189, 189, 189);
+    --background: rgb(184, 184, 184);
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    font-size: 16px;
+}
+
+.header{
+    padding: 1.5rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 1.15rem;
+
+}
+
+.main{
+    font-size: 1.25rem;
+    margin: 1rem;
+}
+
+.container{
+    background-color: grey;
+    padding: 2rem;
+    border-radius: 19px;
+    min-width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    position: absolute;
+}
+
+#btn,
+#copy,
+#display{
+    padding: 0.5rem;
+    border-radius: 9px;
+    border: none;
+    background-color: whitesmoke;
+    resize: none;
+}
+#btn:hover,
+#copy:hover{
+    background-color: var(--background);
+    cursor: pointer;
+}
+
+#display:focus{
+    outline: 2px solid var(--outline);
+}
+
+#copy:focus{
+    cursor: pointer;
+    background-color: var(--background);
+}
