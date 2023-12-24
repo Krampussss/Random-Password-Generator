@@ -28,7 +28,7 @@ html{
 }
 
 .container{
-    background-color: grey;
+    background-color: black;
     padding: 2rem;
     border-radius: 19px;
     min-width: 25%;
@@ -54,6 +54,11 @@ html{
     cursor: pointer;
 }
 
+#display
+{
+    min-width: 185px;
+}
+
 #display:focus{
     outline: 2px solid var(--outline);
 }
@@ -62,3 +67,4 @@ html{
     cursor: pointer;
     background-color: var(--background);
 }
+
