@@ -27,8 +27,10 @@ html{
     margin: 1rem;
 }
 
-.container{
-    background-color: black;
+.container
+{
+    margin: auto;
+    background-color: whitesmoke;
     padding: 2rem;
     border-radius: 19px;
     min-width: 25%;
@@ -36,7 +38,7 @@ html{
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
-    position: absolute;
+    width:fit-content;
 }
 
 #btn,
@@ -45,7 +47,7 @@ html{
     padding: 0.5rem;
     border-radius: 9px;
     border: none;
-    background-color: whitesmoke;
+    background-color: white;
     resize: none;
 }
 #btn:hover,
@@ -66,5 +68,13 @@ html{
 #copy:focus{
     cursor: pointer;
     background-color: var(--background);
+}
+
+.headcontainer{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 

@@ -12,10 +12,12 @@
       <h1>Random Password Generator</h1>
     </div>
     <div class="main">
-      <label for="length">Select password length (5-20):</label>
-
-      <input type="range" id="length" min="5" max="20" value="5">
-      <span>Length: <span id="lengthdisp"></span></span><br><br>
+      <div class="headcontainer">
+        <label for="length">Select password length (5-20)</label>
+        <input type="range" id="length" min="5" max="20" value="5"><br>
+        <span>Length: <span id="lengthdisp"></span></span><br><br>
+      </div>
+      
 
       <div class="container">
         <button type="submit" id="btn">Generate</button>
